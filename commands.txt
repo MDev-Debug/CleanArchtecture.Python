@@ -7,5 +7,8 @@ TvnO.fvR%9C7qJ^a17F2O3^*,u,36?qa
 
 docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=cleanarch -e MYSQL_USER=root -e MYSQL_PASSWORD=root mysql/mysql-server
 
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=db_loja_virtual -e MYSQL_USER=root -e MYSQL_PASSWORD=root mysql/mysql-server
+
+
 .\venv\Scripts\pip3.exe freeze >> requirements.txt
 
